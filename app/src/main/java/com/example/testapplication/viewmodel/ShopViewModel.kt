@@ -170,6 +170,7 @@ class ShopViewModel(
      * Operation is asynchronous with artificial delay.
      *
      * @param product The product to add to the cart
+     * I m adding comments
      */
     fun addToCart(product: Product) {
         viewModelScope.launch {

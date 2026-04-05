@@ -140,7 +140,7 @@ fun ShoppingScreen(
             )
         }
     ) { paddingValues ->
-        Box(
+        Column(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(paddingValues)
@@ -190,6 +190,7 @@ fun ShoppingScreen(
  * @param onAddToCart Callback to increase quantity of an item
  * @param onNavigateBack Callback to return to shopping screen
  * @param onPayment Callback to process payment
+ * this is a new comment
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
